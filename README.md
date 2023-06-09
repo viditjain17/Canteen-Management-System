@@ -20,7 +20,7 @@ This is a Canteen Management System designed specifically for the students of Ne
 
 To set up the application on your local machine, follow these steps:
 
-1. Clone the repository from GitHub: [Repository-link](https://github.com/AryanSinghal007/Canteen-Management-System)
+1. Clone the repository from GitHub: [Repository-link](https://github.com/viditjain17/Canteen-Management-System)
 
 2. Install Node.js and MongoDB on your machine if you haven't already. You can download it from the official website: [NodeJs](https://nodejs.org) and [MongoDB](https://www.mongodb.com/)
 
