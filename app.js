@@ -12,24 +12,24 @@ const md5 = require('md5');
 const session = require("express-session");
 require('dotenv').config();
 
-// app.use(session({
-//   secret: "vidyanjghal",
-//   resave: false,
-//   saveUninitialized: true
-// }));
-
 app.use(session({
-  secret: process.env.SECRET,
+  secret: "vidyanjghal",
   resave: false,
-  saveUninitialized: true
+  saveUninitialized: true
 }));
+
+// app.use(session({
+//   secret: process.env.SECRET,
+//   resave: false,
+//   saveUninitialized: true
+// }));
 
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-mongoose.connect(`mongodb+srv://finstop:${process.env.MONGO_PASSWORD}@cluster0.d7sp04r.mongodb.net/canteenDB`, { useNewUrlParser: true, useUnifiedTopology: true });
-// mongoose.connect("mongodb+srv://finstop:apnafinstop@cluster0.d7sp04r.mongodb.net/canteenDB", { useNewUrlParser: true, useUnifiedTopology: true })
+// mongoose.connect(`mongodb+srv://finstop:${process.env.MONGO_PASSWORD}@cluster0.d7sp04r.mongodb.net/canteenDB`, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://finstop:apnafinstop@cluster0.d7sp04r.mongodb.net/canteenDB", { useNewUrlParser: true, useUnifiedTopology: true })
 //Mongoose db
 const inventorySchema = {
   foodName: String,
