@@ -50,7 +50,7 @@ Note: You need to setup a MongoDB atlas account and generate a connection string
 
 ## Collaborators 
 
-- [@Vidit Jain](https://www.github.com/viditjain17)
+- [@Aryan Singhal](https://www.github.com/AryanSinghal007)
 
 ## Product
 
