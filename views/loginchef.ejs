@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Signup/Signin Page</title>
+    <title>Login/Register Page</title>
     <style>
       body {
         background-color: #f5f0e1;
@@ -82,29 +82,11 @@
         <% if (errorMessage) { %>
         <p style="color: red"><%= errorMessage %></p>
         <% } %>
-        <form action="/login" method="POST">
-          <input
-            type="text"
-            name="rollNo"
-            placeholder="Roll Number"
-            maxlength="11"
-            minlength="10"
-            required
-          />
-          <input
-            type="password"
-            name="password"
-            placeholder="Password"
-            required
-          />
-          <input type="submit" value="LOGIN AS USER" />
+        <form action="/homechef" method="POST">
+          <input type="text" name="chefID" placeholder="Chef ID" required />
+          <input type="submit" value="LOGIN AS CHEF" />
         </form>
-
-        <form action="/loginchef" method="POST">
-          <input type="submit" value="LOGIN AS CHEF" /> 
-        </form>
-
-        <p>Don't have an account? <a href="/register">Register</a></p>
+        
       </div>
     </div>
   </body>
