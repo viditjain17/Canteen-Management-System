@@ -4,7 +4,7 @@ The Canteen Management System is a web-based application designed to streamline 
 This is a Canteen Management System designed specifically for the students of Netaji Subhas University of Technology.
 
 
-[Website Link](https://canteen-management-system-wwqv.onrender.com)
+[Website Link](https://canteen-management-system-oxyd.onrender.com/)
 ## Technologies Used
 
 - Frontend UI: The user interface is designed using HTML, CSS, and Bootstrap to provide an intuitive and visually appealing experience for the users.
